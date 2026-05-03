@@ -1,0 +1,18 @@
+# Build resulta
+[Bb]in/
+[Oo]bj/
+
+# IDE Settings
+.idea/
+.vs/
+*.user
+*.suo
+
+# Project specific 
+tasks_data.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+config/
