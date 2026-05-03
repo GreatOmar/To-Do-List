@@ -10,7 +10,7 @@ A simple, efficient, and user-friendly Command-Line Interface (CLI) application 
 - **View Tasks:** Display your current list with clear formatting.
 - **Remove Tasks:** Delete tasks by their index once completed.
 - **Data Persistence:** Tasks are automatically saved to `tasks_data.txt`, so you never lose your progress.
-- **Clean Architecture:** Built using clean C# code and organized project structure.
+- **Cross-Platform:** Native support for both **Windows** and **Linux**.
 
 ---
 
@@ -19,18 +19,26 @@ A simple, efficient, and user-friendly Command-Line Interface (CLI) application 
 - **Language:** C#
 - **Framework:** .NET 10.0
 - **IDE:** JetBrains Rider
-- **Version Control:** Git & GitHub
 
 ---
 
-## 📦 How to Install & Run
+## 📦 How to Download & Run
 
-### For Users (Executable):
+### 1. For Windows Users:
 1. Go to the [Releases](https://github.com/GreatOmar/To-Do-List/releases) section.
-2. Download the latest `To-Do List.zip`.
-3. Extract the file and run `To-Do List.exe`.
+2. Download `To-Do-List-Windows-v1.0.0.zip`.
+3. Extract the folder and run `To-Do List.exe`.
 
-### For Developers (Source Code):
+### 2. For Linux Users:
+1. Download `To-Do-List-linux-v1.0.0.tar.gz` from the [Releases](https://github.com/GreatOmar/To-Do-List/releases) page.
+2. Extract the file: `tar -xvf To-Do-List-linux-v1.0.0.tar.gz`.
+3. Give execution permission: `chmod +x "To-Do List"`.
+4. Run the application: `./"To-Do List"`.
+
+---
+
+## 👨‍💻 For Developers
+If you want to contribute or explore the code:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/GreatOmar/To-Do-List.git](https://github.com/GreatOmar/To-Do-List.git)
